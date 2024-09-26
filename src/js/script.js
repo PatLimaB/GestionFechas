@@ -99,7 +99,7 @@ function countdown() {
         hoursElement.classList.add("orangeColor");
         minutesElement.classList.add("orangeColor");
         secondsElement.classList.add("orangeColor");
-    } else if (totalDays > 14 && totalDays <= 30) {
+    } else if (totalDays > 14) {
         monthsElement.classList.add("greenColor");
         daysElement.classList.add("greenColor");
         hoursElement.classList.add("greenColor");
